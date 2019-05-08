@@ -11,6 +11,7 @@ community contributions.
 
 #### Quick Links
 * [Donkeycar Guide](http://www.xiao-r.com/index.php/Study/catalog/cid/29)
+* [Buy it](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-15160605207.30.62b56ac7N79u3v&id=585079523550)
 
 ![donkeycar](./docs/assets/build_hardware/donkey2.jpg)
 

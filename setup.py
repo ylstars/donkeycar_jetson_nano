@@ -7,14 +7,14 @@ with open("README.md", "r") as fh:
 
 
 setup(name='donkeycar',
-      version='2.5.7',
+      version='2.5.8',
       description='Self driving library for python.',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      url='https://github.com/autorope/donkeycar',
-      download_url='https://github.com/autorope/donkeycar/archive/2.1.5.tar.gz',
-      author='Will Roscoe',
-      author_email='wroscoe@gmail.com',
+      url='https://github.com/991693552/donkeycar_jetson_nano',
+      download_url='https://codeload.github.com/991693552/donkeycar_jetson_nano/zip/master',
+      author='Sence',
+      author_email='sence0722@foxmail.com',
       license='MIT',
       entry_points={
           'console_scripts': [
