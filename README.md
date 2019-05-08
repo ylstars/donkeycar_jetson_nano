@@ -10,11 +10,9 @@ developed for hobbyists and students with a focus on allowing fast experimentati
 community contributions.
 
 #### Quick Links
-* [Donkeycar Updates & Examples](http://donkeycar.com)
-* [Build instructions and Software documentation](http://docs.donkeycar.com)
-* [Slack / Chat](https://donkey-slackin.herokuapp.com/)
+* [Donkeycar Guide](http://www.xiao-r.com/index.php/Study/catalog/cid/29)
 
-![donkeycar](./docs/assets/build_hardware/donkey2.PNG)
+![donkeycar](./docs/assets/build_hardware/donkey2.jpg)
 
 #### Use Donkey if you want to:
 * Make an RC car drive its self.
@@ -35,14 +33,14 @@ The donkey car is controlled by running a sequence of events
 #Define a vehicle to take and record pictures 10 times per second.
 
 from donkeycar import Vehicle
-from donkeycar.parts.camera import PiCamera
+from donkeycar.parts.xrcamera import XRCamera
 from donkeycar.parts.datastore import Tub
 
 
 V = Vehicle()
 
 #add a camera part
-cam = PiCamera()
+cam = XRCamera()
 V.add(cam, outputs=['image'], threaded=True)
 
 #add tub part to record images
@@ -55,5 +53,4 @@ V.add(tub, inputs=['image'])
 V.start(rate_hz=10)
 ```
 
-See [home page](http://donkeycar.com), [docs](http://docs.donkeycar.com)
-or join the [Slack channel](http://www.donkeycar.com/community.html) to learn more.
+See [home page](http://www.xiao-r.com/index.php/Study/catalog/cid/29)to learn more.
