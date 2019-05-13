@@ -16,11 +16,11 @@ __all__ = [
     "__email__","__license__",
 ]
 
-__title__ = "XiaoRGEEK-raspberry pi-Python Src"
-__summary__ = 'This Python Code  can be used on raspberry pi 3B/3B+,The definition of GPIO pin is based on XiaoRGEEK PWR.A53 series Driver BOARD'
+__title__ = "XiaoRGEEK-JetsonNano-Python Src"
+__summary__ = 'This Python Code  can be used on JetsonNano,The definition of GPIO pin is based on XiaoRGEEK PWR.A53 series Driver BOARD'
 __uri__ = 'http://www.xiao-r.com'
 
 __version__ = "0.1.1"
 
-__author__ = "RAY"
-__email__ = "ray_yi@wifi-robots.com"
+__author__ = "Sence"
+__email__ = "Sence@wifi-robots.com"
