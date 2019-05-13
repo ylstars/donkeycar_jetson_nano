@@ -57,7 +57,7 @@ class KerasPilot:
             verbose=1,
             validation_data=val_gen,
             callbacks=callbacks_list,
-            validation_steps=int(steps * (1.0 - train_split) // train_split))
+            validation_steps=int(steps * (1.0 - train_split) / train_split))
         return hist
 
 
